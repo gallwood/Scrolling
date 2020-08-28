@@ -1,0 +1,30 @@
+﻿@page "/"
+
+<Row>
+    <Table>
+        @foreach (var store in Lines)
+        {
+            <TableRow>
+                <TableRowCell>@store</TableRowCell>
+                <TableRowCell Display="Display.None.TableCell.OnTablet">x</TableRowCell>
+                <TableRowCell Class="numbercolumn">y</TableRowCell>
+            </TableRow>
+        }
+    </Table>
+
+</Row>
+
+@code {
+    private int[] Lines;
+ 
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        Lines = new int[40];
+        for (int i = 0; i < Lines.Length; i++)
+        {
+            Lines[i] = i;
+        }
+    }
+}

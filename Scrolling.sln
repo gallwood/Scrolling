@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrolling", "Scrolling\Scrolling.csproj", "{86DC5EF7-5AA4-4F0F-9648-089E67A9C27F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86DC5EF7-5AA4-4F0F-9648-089E67A9C27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DC5EF7-5AA4-4F0F-9648-089E67A9C27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DC5EF7-5AA4-4F0F-9648-089E67A9C27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DC5EF7-5AA4-4F0F-9648-089E67A9C27F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F16EE1C-9379-4F49-8F36-7074CFC53E55}
+	EndGlobalSection
+EndGlobal
